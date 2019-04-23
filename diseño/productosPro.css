@@ -51,6 +51,18 @@
 				height: 210px;
 				width: auto;
 			}
+	.png-box{
+		position: absolute;
+		width: 100vw;
+		z-index: 11;
+	}
+		#original_png{
+			width: 30%;
+			opacity: .5;
+			z-index: 1;
+			margin-left: 50%;
+			transform: translate(-50%,-50%);
+		}
 #menuSection{
 	height: 150px;
 	width: 100vw;
@@ -207,7 +219,7 @@
 		#titleMenu h1{
 			color: white;
 			font-weight: 800;
-			font-size: 75px;
+			font-size: 55px;
 			margin-bottom: 30px;
 		}
 	#menuBox{
@@ -243,7 +255,7 @@
 			}
 	.png-box{
 		position: absolute;
-		width: 100vw;
+		width: 50vw;
 		z-index: 11;
 	}
 		#original_png{
@@ -251,7 +263,7 @@
 			opacity: .5;
 			z-index: 1;
 			margin-left: 50%;
-			transform: translate(-50%,-50%);
+			transform: scale(2) translate(50%,0%);
 		}
 
 

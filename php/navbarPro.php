@@ -10,7 +10,7 @@ $pestaña_actual= "index.php";
       $ul_color_class = "franquicias_ul";
     }else if ( $pestaña_actual == "index.php" ){
       $link_productos = "goToByScroll('#prodMenu')";
-      $link_franquicias = "window.location.href = 'fran.php'";
+      $link_franquicias = "window.location.href = 'franPro.php'";
       $link_central = "goToByScroll('#videoBox')";
       $link_sucursales = "goToByScroll('#franquiciasPro')";
       $link_contacto = "goToByScroll('#contacto')";
