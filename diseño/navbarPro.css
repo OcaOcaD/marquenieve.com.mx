@@ -96,7 +96,7 @@
 	    /* outline: 5px auto -webkit-focus-ring-color; */
 	}
 	#navBox{
-		position: relative;
+		position: fixed;
 		display: flex;
 		height: 75px;
 		width: 100vw;
@@ -165,7 +165,7 @@
 	    justify-content: center;
 	    width: 100%;
 	    padding: 0 !important;
-	    margin-left: calc( 50vw - 25% );
+	    /*margin-left: calc( 50vw - 25% );*/
 	}
 	#bars-icon{
 		order: 1;
