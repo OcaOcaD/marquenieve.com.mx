@@ -14,6 +14,9 @@
 	    		<img src="diseño/img/nievesPro.png" alt="" class="menuOpt-img">
 	    	</div>
  		</div>
+ 		<div class="png-box">
+ 			<img id="original_png" src="diseño/img/original.png" alt="">
+ 		</div>
  		<div id="menuBox">
 	    	<div class="menuOpt left">
 	    		<img src="diseño/img/bebidasPro.png" alt="" class="menuOpt-img">
