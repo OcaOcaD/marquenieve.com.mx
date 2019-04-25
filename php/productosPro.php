@@ -47,8 +47,10 @@
 </section>
 <section id="franquiciasPro">
 	<div id="fran_Box" class="textBox">
-		<button id="menuButton" class="no_deco text-btn" src="diseño/img/menu.png">
-		<h1 class="">Encuentra una franquicia cerca de ti</h1>
+		<h1 class="franText">Encuentra una sucursal cerca de ti</h1>
+		<div id="smCircle">
+			<img id="smIsla" src="diseño/img/isla.jpeg">
+		</div>
 		</button>
   	</div>
 	<div id="mapBox">
