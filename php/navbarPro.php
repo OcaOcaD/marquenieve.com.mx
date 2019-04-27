@@ -1,7 +1,7 @@
 <?php 
   //PARAMETROS
-$pestaña_actual= "index.php";
   if ( $pestaña_actual == "franquicias" ){
+      $logoPath = "../diseño/img/logoPro.png";
       $link_productos = "window.location.href = 'indexPro.php#prodMenu'";
       $link_franquicias = "#";
       $link_central = "window.location.href = 'indexPro.php#videoBox'";
@@ -9,8 +9,9 @@ $pestaña_actual= "index.php";
       $link_contacto = "window.location.href = 'indexPro.php#contacto'";
       $ul_color_class = "franquicias_ul";
     }else if ( $pestaña_actual == "index.php" ){
+      $logoPath = "diseño/img/logoPro.png";
       $link_productos = "goToByScroll('#prodMenu')";
-      $link_franquicias = "window.location.href = 'franPro.php'";
+      $link_franquicias = "window.location.href = 'php/franPro.php'";
       $link_central = "goToByScroll('#videoBox')";
       $link_sucursales = "goToByScroll('#franquiciasPro')";
       $link_contacto = "goToByScroll('#contacto')";
@@ -40,7 +41,7 @@ $pestaña_actual= "index.php";
               </li>
               <li id="logoLi" class="nav-item">
                 <button onclick="<?php echo $link_central ?>" class="noDeco navButton">
-                <img id="navLogo" src="diseño/img/logoPro.png">
+                <img id="navLogo" src="<?php echo $logoPath ?>">
               </button>
               </li>
               <li class="nav-item">

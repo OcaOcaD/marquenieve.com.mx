@@ -10,6 +10,7 @@
   include("php/carousel.php");
   include("php/productosPro.php");
   include("footer.html")
+  $pestaña_actual= "index.php";
    ?>
    
   <?php include("plantillas/scripts.html"); ?>

@@ -11,7 +11,12 @@
 </head>
 
 <body>
-	<?php //include("navbarPro.php"); ?>
+	<?php 
+	$pestaña_actual= "franquicias";
+	 ?>
+	<?php include("../plantillas/headersF.html"); ?>
+	<?php include("navbarPro.php"); ?>
+	<?php include("../plantillas/scripts.html"); ?>
   <!-- svg is defined here because of a Safari bug with <use> -->
   <svg>
     <defs>
@@ -31,12 +36,12 @@
 
   <nav>
     <ul class="nav">
-      <li><a href="#slide-1">Slide 1</a></li>
-      <li><a href="#slide-2">Slide 2</a></li>
-      <li><a href="#slide-3">Slide 3</a></li>
-      <li><a href="#slide-4">Slide 4</a></li>
-      <li><a href="#slide-5">Slide 5</a></li>
-      <li><a href="#slide-6">Slide 6</a></li>
+      <li><a href="#slide-1">1</a></li>
+      <li><a href="#slide-2">2</a></li>
+      <li><a href="#slide-3">3</a></li>
+      <li><a href="#slide-4">4</a></li>
+      <li><a href="#slide-5">5</a></li>
+      <li><a href="#slide-6">6</a></li>
     </ul>
   </nav>
 
@@ -61,15 +66,25 @@
     </div>
 
     <div class="slide" id="slide-3">
-      <div class="slide__bg"></div>
-      <div class="slide__content">
-        <div class="slide__text">
-          <h1 id="slide-3-title">Slide 3 title</h1>
-          <p>Bacon ipsum dolor amet alcatra beef meatloaf brisket beef ribs meatball tenderloin shank ball tip ribeye pig pastrami filet mignon. Sirloin tail fatback venison shank salami. Picanha pastrami venison meatball kevin pork chop leberkas. Meatloaf tenderloin leberkas pancetta hamburger cow kielbasa, filet mignon tri-tip beef ribs.</p>
-          <p>Bacon ipsum dolor amet alcatra beef meatloaf brisket beef ribs meatball tenderloin shank ball tip ribeye pig pastrami filet mignon. Sirloin tail fatback venison shank salami. Picanha pastrami venison meatball kevin pork chop leberkas. Meatloaf tenderloin leberkas pancetta hamburger cow kielbasa, filet mignon tri-tip beef ribs.</p>
+      <div id="sContent3" class="slide__content">
+		<div class="slide__left">
+			<img src="../diseño/productos/marquenieve nutella.jpg">         
         </div>
-        <div class="slide__image">
-          <svg viewBox="0 0 400 425" width="400" height="425"><use xlink:href="#polaroid"/></svg>
+        <div class="slide__right">
+         	<div class="block">
+         		<h1>
+         			¡Gracias por tu interes en marquesitas!
+         		</h1>
+         		<h2>
+         			TÚ puedes ser el dueño de tu propia franquicia MARQUENIEVE
+         		</h2>
+         		<h2>Y sumarte a éste exitoso negocio e inovador modelo</h2>
+         		<h3>Puedes elegir entre éstos dos modelos</h3>
+         		<div class="flex">
+         			<img src="../diseño/img/puntoFijo.png" alt="">
+         			<img src="../diseño/img/puntoMovil.png" alt="">
+         		</div>
+         	</div>
         </div>
       </div>
     </div>
