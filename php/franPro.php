@@ -75,8 +75,7 @@
          		<h2>Y sumarte a éste exitoso negocio e inovador modelo</h2>
          		<h3>Puedes elegir entre éstos dos modelos</h3>
          		<div class="flex">
-         			<img src="../diseño/img/puntoFijo.png" alt="">
-         			<img src="../diseño/img/puntoMovil.png" alt="">
+         			<img src="../diseño/img/puntos.png" alt="">
          		</div>
          	</div>
         </div>

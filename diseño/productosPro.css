@@ -231,6 +231,31 @@
   	height: 200px;
   }
   /*CSS DE MOVIL*/
+  #prodMenuF{
+	z-index: 100;
+	width: 100vw;
+	margin: 0;
+	height: 100vh;
+}
+	#prodMenuF #productosBox{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		background-image: radial-gradient(ellipse farthest-side at 50% 90% , #e8c295 0%, #3c2213 50%, #3c2213 95%);
+		background-size: cover;
+	}
+	#titleMenu{
+		height: 30vh;
+		text-align: center;
+		padding-top: 110px;
+	}
+		#titleMenu h1{
+			color: white;
+			font-weight: 800;
+			font-size: 75px;
+		}
+
   #prodMenu{
 		width: 100vw;
 		margin: 0;
