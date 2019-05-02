@@ -34,7 +34,7 @@
   <nav>
     <ul class="nav">
       <li><a href="#slide-1">Bienvenido</a></li>
-      <li><a href="#slide-2">Baja inversión</a></li>
+      <li><a href="#slide-2">Franquicias</a></li>
       <li><a href="#slide-3">Modalidades</a></li>
       <li><a href="#slide-5">Inversión</a></li>
       <li><a href="#slide-6">Productos</a></li>

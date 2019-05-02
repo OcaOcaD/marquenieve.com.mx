@@ -2,11 +2,11 @@
   //PARAMETROS
   if ( $pestaña_actual == "franquicias" ){
       $logoPath = "../diseño/img/logoPro.png";
-      $link_productos = "window.location.href = 'indexPro.php#prodMenu'";
+      $link_productos = "window.location.href = '../indexPro.php#prodMenu'";
       $link_franquicias = "#";
-      $link_central = "window.location.href = 'indexPro.php#videoBox'";
-      $link_sucursales = "window.location.href = 'indexPro.php#franquiciasPro'";
-      $link_contacto = "window.location.href = 'indexPro.php#contacto'";
+      $link_central = "window.location.href = '../indexPro.php#videoBox'";
+      $link_sucursales = "window.location.href = '../indexPro.php#franquiciasPro'";
+      $link_contacto = "window.location.href = '../indexPro.php#contacto'";
       $ul_color_class = "franquicias_ul";
     }else if ( $pestaña_actual == "index.php" ){
       $logoPath = "diseño/img/logoPro.png";
