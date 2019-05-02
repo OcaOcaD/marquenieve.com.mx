@@ -1,22 +1,21 @@
-
+<?php $pestaña_actual= "franquicias"; ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Franquicias</title>
+	<?php include("../plantillas/headersF.html"); ?>
 	<link rel="stylesheet" type="text/css" href="../diseño/parallax.css">
+	<link rel="stylesheet" type="text/css" href="../diseño/franSmall.css">
 	<link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Permanent+Marker|Roboto+Condensed" rel="stylesheet">
 
 </head>
 
 <body>
-	<?php 
-	$pestaña_actual= "franquicias";
-	 ?>
-	<?php include("../plantillas/headersF.html"); ?>
+	
 	<?php include("navbarPro.php"); ?>
-	<?php include("../plantillas/scripts.html"); ?>
+	
   <!-- svg is defined here because of a Safari bug with <use> -->
   <svg>
     <defs>
@@ -134,7 +133,7 @@
 				<strong><h2>Trabajamos de la mano contigo para asegurar el éxito de tu negocio.</h2></strong>
 	      	  </div>
 			  <div class="normal__text">
-				<strong><h2>Te asesoramos para encontrarel lugar ideal para tu negocio.</h2></strong>
+				<strong><h2>Te asesoramos para encontrar el lugar ideal para tu negocio.</h2></strong>
 			  </div>
 			  <div class="normal__text">
 				<strong><h2>Tiempo de arranque</h2></strong>
@@ -149,6 +148,7 @@
       	  	      	
       </div>
     <?php include("../footer.html") ?>
+    <?php include("../plantillas/scripts.html"); ?>
     </div>
     <?php include("../plantillas/scripts.html"); ?>
 </body>
