@@ -6,11 +6,11 @@
 </head>
 <body>
   <?php
+  $pestaña_actual= "index.php";
   include("primarySection.php");
   include("php/carousel.php");
   include("php/productosPro.php");
-  include("footer.html")
-  $pestaña_actual= "index.php";
+  include("footer.html");
    ?>
    
   <?php include("plantillas/scripts.html"); ?>

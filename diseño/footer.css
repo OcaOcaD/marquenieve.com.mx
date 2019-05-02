@@ -30,6 +30,8 @@
 		width: 100%;
 	}
 	.thirdP{
+		padding: 20px;
+		letter-spacing: .5px;
 		min-width: 300px;
 	}
 	#l1{
@@ -103,7 +105,13 @@
 		color: white;
 		border: none;
 	}
-
+	.footer-txt{
+		padding: 25px;
+	    letter-spacing: 1px;
+	}
+	.fab:hover{
+		text-shadow: 0px 0px 3px white; 
+	}
 	button > h1, p, label{
 		text-align: center;
 	}
