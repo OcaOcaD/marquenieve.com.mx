@@ -44,8 +44,8 @@
   <div class="slides">
     <div class="slide" id="slide-1">
     <div class="slide__content">
-    	<div id="slide_bg1" class="slide__bg"></div>
-	    <img id = "pngFront" src="../diseño/img/nieveFresa.png">
+    	<div id="slide_bg" class="slide__bg"></div>
+	    <img id = "pngFront" src="../diseño/img/productosF.png">
     	<div id="tituloBox">
 	    	<h1 id="slide-1-title">¡Hola!</h1>
     	</div>
